@@ -1,11 +1,17 @@
-# typescript-sandbox
+# Laboratorio 04
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+## **Funciones**
+Queremos implementar una pantalla en la que aparezca un display con el turno actual de una clínica y un botón para pasar al siguiente turno y otro para volver al anterior.
 
-Pasos:
+A implementar:
 
-- Clonate el proyecto.
-- Instala las dependencias con `npm install`.
-- Ejecuta el sandbox con `npm run dev`.
-- Abre el navegador en `http://localhost:5173/` (si ese puerto no te funciona, mira en la consola donde has hecho el build, puede que este ocupado y se haya abierto en otro puerto).
-- Puedes empezar a meter tu código en el fichero:
+#### Básico:
+- En grande se muestra el turno.
+- El operario puede ir dándole a siguiente o anterior y el turno cambia.
+- Además de esto vamos a añadir un botón de reset que pone el turno a 0.
+
+#### Avanzado:
+- Como challenge puedes añadir una caja de texto y un botón que permita cambiar el turno a un valor que ponga el operario.
+
+#### Challenge:
+- Sea el número que sea, lo quiero mostrar siempre con dos digitos (es decir el 1 -> 01, el 2 -> 02, el 10 -> 10, el 11 -> 11, etc), investiga como puedes formatear un número para que siempre tenga dos dígitos.
