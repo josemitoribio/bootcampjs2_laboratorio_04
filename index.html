@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style.css">
     <title>Vite + TS</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
-    </div>
+    <div id="container">
+    <h1>CLÍNICA LEMONCODE</h1>
+        <div id="turn-display" class="turn">01</div>
+        <div class="button-container">
+            <button id="previous-button" class="style-buttons">Anterior</button>
+            <button id="reset-button" class="style-buttons">Reset</button>
+            <button id="next-button" class="style-buttons">Siguiente</button>
+        </div>
+      </div>
+      <div id="container">
+        <input id="input-turn" type="number" placeholder="Nuevo Turno"></input>
+        <button id="set-button" class="style-buttons">Seleccionar Turno</button>
+      </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
